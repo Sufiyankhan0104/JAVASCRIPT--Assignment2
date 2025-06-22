@@ -1,0 +1,56 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>(Question 1): Difference between “ == “ and “ === “ operators.</h2>
+    <p> <b>Equal to :- (==)</b><br>It compares values after type conversion.</p>
+    <p><b></b>It is equal value and type<b></b>:-<b>(===)</b>. </p>
+    <h2>(Question 2): What are the differences between var, let and const?</h2>
+    <p><b>var:</b> It is function-scoped. It can be reassigned as well as redeclared.<br>
+    <b>let:</b> Its scope is limited to a particular block. It can be reassigned but cannot be redeclared.<br><b>const:</b> Its scope is also limited to a block and cannot be ressigned.</p>
+    <h2>(Question 3): What is execution context?</h2>
+    <p>Execution Context (EC) is an environment where JavaScript code is executed. It contains the variables, functions, and the scope in which the code is running.</p>
+    <h2>(Question 4): What is creation phase and execution phase?</h2>
+    <h3>Creation Phase:</h3>
+    <p>It happens before the code starts running.
+        JavaScript scans the code and:<br>
+        Creates the Global Object (window in browsers, global in Node.js).<br>
+        Sets up the this keyword (depends on the execution context: window in the global scope).<br>
+        Hoists function declarations and variables.
+    </p>
+    <h3>Execution Phase:</h3>
+    <p>In this phase, JavaScript runs the code line by line.<bR>
+        Assigns values to variables.<br>
+        Executes functions when they are invoked.
+    </p>
+    <h2>(Question 5): What is hoisting?</h2>
+    <P>Hoisting is a JavaScript mechanism where variable and function declarations are moved to the top of their containing scope during the creation phase before code execution. Only the declaration is hoisted, not the initialization.</P>
+    <h2>(Question 6): Difference between undefined vs not defined vs NaN?</h2>
+    <h3>Undefined:</h3>
+    <p>A variable is declared but has not been assigned a value.</p>
+    <h3>Not Defined:</h3><p>A variable has not been declared in the current scope.</p>
+    <h3>NaN: </h3><p>A value that isn't a valid number. Eg: Math.sqrt(-1)</p>
+    <h2>(Question 7): How many operators do we have in JS ? </h2>
+    <P>Operators in JS are:<br></P>
+    <h4>Arithmetic Operators </h4>
+    <h4>Comparison Operators </h4>
+    <h4>Assignment Operators </h4>
+    <h4>Logical Operators </h4> 
+    <h4>Bitwise Operators </h4> 
+    <h4>Ternary Operator </h4>
+    <h4>String Operators </h4>
+    <h1=2>(Question 8): Explain Local Scope, Block Scope, Functional Scope and Scope Chain in javascript</h2>
+    <h3>Local Scope:</h3>
+    <p>A variable declared inside a function is local to that function.
+        It cannot be accessed outside the function.</p>
+    <h3>Block Scope:</h3>
+    <p>Introduced with let and const. Variables declared inside a block are only accessible within that block. var does not have block scope.</p>
+    <h3>Function Scope: </h3>
+    <p>Variables declared with var inside a function are accessible only within that function.</p>
+    <h3>Scope Chain:</h3>
+    <p>While accessing a variable, JavaScript searches in the current scope first. If not found, it moves up to the parent scope (outer function → global scope). This process is called the Scope Chain.</p>
+</body>
+</html>
